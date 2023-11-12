@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&family=Raleway:wght@200;300;400;500&display=swap');
 
 @media screen and (min-width: 300px) and (max-width: 415px) {
   body {
     background-color: #fff5e9;
+    font-family: 'Raleway', sans-serif;
   }
 
   .heading {
@@ -18,9 +20,26 @@
     height: 6vh;
     border: black solid 2px;
     box-shadow: 4px 4px 0px 0px #000000;
-    background-color: #62a82f;
+    background-color: #32c572;
     color: white;
     font-size: 1.3rem;
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .donate-btn:hover,
+  .donate-btn:active {
+    transform: scale(0.95);
+  }
+
+   .submit-btn {
+    width: 40vw;
+    height: 5vh;
+    border: black solid 2px;
+    box-shadow: 4px 4px 0px 0px #000000;
+    background-color: #32c572;
+    color: white;
+    font-size: 1.2rem;
     margin-top: 20px;
     transition: transform 0.2s ease-in-out;
   }

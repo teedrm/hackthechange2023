@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&family=Raleway:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@300;400;500&family=Raleway:wght@200;300;400;500&display=swap");
 
 @media screen and (min-width: 300px) and (max-width: 415px) {
   body {
     background-color: #fff5e9;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
   }
 
   .heading {
@@ -32,7 +32,7 @@
     transform: scale(0.95);
   }
 
-   .submit-btn {
+  .submit-btn {
     width: 40vw;
     height: 5vh;
     border: black solid 2px;
@@ -61,5 +61,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
+  }
+  .thankyou-card {
+    border: black solid 2px;
+    box-shadow: 4px 4px 0px 0px #000000;
+    background-color: white;
+    height: 30vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-left: 10px;
   }
 }

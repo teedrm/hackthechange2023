@@ -8,6 +8,7 @@ const SignIn = () => {
     return (
         <div>
         <ArrowBackIosIcon style={{marginTop:'10px', marginLeft:'10px'}} onClick={()=> navigate('/')}/>
+        
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <h3 style={{fontSize:'1.3rem'}}>Enter Your Information</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'start', width: '95%' }}>

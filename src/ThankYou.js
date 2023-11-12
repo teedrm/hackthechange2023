@@ -8,9 +8,9 @@ const ThankYou = () => {
             <div style={{ display: 'flex', alignItems: 'center', flexDirection:'column' }}>
                 <div className='thankyou-card'>
                     <h3 style={{fontSize:'1.4rem'}}>Thank you for your donation!</h3>
-                    <p style={{fontSize:"0.9rem", marginTop:'-5px'}}>The receipt has been sent to name@gmail.com!</p>
+                    <p style={{fontSize:"0.9rem", marginTop:'-5px'}}>The receipt has been sent to name@gmail.com.</p>
 
-                    <p>Your plant number</p>
+                    <p>Your plant ID</p>
                     <p className='plant-number' style={{fontSize:'1.4rem', marginTop:"2px"}}> 12345</p>
                     <img src='/plant.gif' alt='plant' style={{ width: '200px' }} />
                 </div>

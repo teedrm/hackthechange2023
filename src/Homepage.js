@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import { useNavigate } from 'react-router-dom';
 
 function Homepage() {
+    const navigate = useNavigate();
     return (
         <div>
             <div className='logo' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
@@ -13,9 +15,9 @@ function Homepage() {
 
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                 <img src='/123.gif' alt='plant' style={{ width: '300px', }} />
-                <button className='donate-btn' >DONATE</button>
+                <button className='donate-btn' onClick={() => navigate('/signin')} >DONATE</button>
 
-                {/* Transparent Circle with Black Border */}
+                {/* black circle thingy */}
                 <div className='transparent-circle'></div>
             </div>
 

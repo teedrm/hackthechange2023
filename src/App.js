@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const navigate = useNavigate();
   return (
-    <div>
+    <div >
       <div className='logo' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <img src='/4l.png' alt='leaf' style={{ width: '50px', marginTop: '20px' }} />
       </div>

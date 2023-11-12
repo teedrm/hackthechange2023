@@ -19,7 +19,7 @@ function Homepage() {
 
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
         <img src='/123.gif' alt='plant' style={{ width: '300px', }} />
-        <button className='donate-btn' >DONATE</button>
+        <button className='donate-btn'onClick={()=> navigate('/donate')} >DONATE</button>
 
         {/* Transparent Circle with Black Border */}
         <div className='transparent-circle'></div>

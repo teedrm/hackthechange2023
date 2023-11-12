@@ -84,6 +84,7 @@
     background-color: #e6fad7;
     text-align: center;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   .donate2-btn {
     width: 50vw;
@@ -93,7 +94,7 @@
     background-color: #32c572;
     color: white;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 80px;
     transition: transform 0.2s ease-in-out;
   }
 
@@ -161,7 +162,7 @@
     border-radius: 50%;
     background-color: transparent;
     content: "";
-    top: 52.2%;
+    top: 58.2%;
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
@@ -182,11 +183,12 @@
   .plant-number {
     border: black solid 2px;
     box-shadow: 4px 4px 0px 0px #000000;
-    height: 10vh;
+    height: 4vh;
     width: 40vw;
     background-color: #e6fad7;
     text-align: center;
     padding-bottom: 5px;
+    padding-top: 5px;
   }
   .donate2-btn {
     width: 50vw;
@@ -196,7 +198,7 @@
     background-color: #32c572;
     color: white;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 90px;
     transition: transform 0.2s ease-in-out;
   }
 
